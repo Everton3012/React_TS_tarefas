@@ -4,3 +4,8 @@
     font-family: Helvetica, sans-serif;
     box-sizing: border-box;
 }
+
+.hide {
+    display: none !important;
+}
+
