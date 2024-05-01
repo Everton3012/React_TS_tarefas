@@ -6,7 +6,8 @@ interface Props {
 
 const Modal = ({ children }: Props) => {
 
-    const closeModal = (e: React.MouseEvent) : void => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const closeModal = () : void => {
         const modal = document.getElementById("modal");
         modal!.classList.add("hide");
     }
